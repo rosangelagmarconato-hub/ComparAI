@@ -70,14 +70,14 @@ comparai/
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/comparai.git
+git clone https://github.com/rosangelagmarconato-hub/ComparAI.git
 cd comparai
 ```
 
 2. Instale as dependências:
 
 ```bash
-pip install pandas numpy matplotlib requests python-dateutil
+pip install -r requirements.txt
 ```
 
 ---
@@ -85,7 +85,7 @@ pip install pandas numpy matplotlib requests python-dateutil
 ## Como Executar
 
 ```bash
-python comparai.py
+python -m presentation.cli
 ```
 
 O script solicitará:
@@ -165,8 +165,4 @@ Limite de parcela (30% do rendimento): R$ 900,00
 * Se nenhuma opção atender às restrições, será exibida uma mensagem de alerta.
 * A API do Banco Central pode não retornar dados em tempo real, então algumas tabelas podem aparecer como "Desconhecido".
 
-## Como rodar
 
-``` bash
-pip install -r requirements.txt
-```
