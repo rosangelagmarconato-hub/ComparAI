@@ -165,4 +165,5 @@ Limite de parcela (30% do rendimento): R$ 900,00
 * Se nenhuma opção atender às restrições, será exibida uma mensagem de alerta.
 * A API do Banco Central pode não retornar dados em tempo real, então algumas tabelas podem aparecer como "Desconhecido".
 
+![diagrama](./docs/diagramas/image.png)
 
