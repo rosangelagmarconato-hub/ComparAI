@@ -1,0 +1,53 @@
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# Dependências instaladas
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos de cache de pacotes
+*.sqlite3
+*.db
+
+# =============================
+# IDEs
+# =============================
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# =============================
+# Dados e outputs gerados
+# =============================
+*.csv
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.ipynb_checkpoints/
+
+# =============================
+# Configurações específicas
+# =============================
+.DS_Store
+Thumbs.db
